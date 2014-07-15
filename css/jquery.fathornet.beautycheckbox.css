@@ -1,0 +1,16 @@
+.beautychk-icon{
+    display: inline-block;
+    background: url(../img/unchecked.png) no-repeat;
+    width:30px;
+    height:30px;
+}
+.beautychk-container a:link, .beautychk-container a:hover, .beautychk-container a:visited{
+    text-decoration: none;
+}
+.beautychk-container a.checked > .beautychk-icon{
+    background: url(../img/checked.png) no-repeat;
+}
+.beautychk-text{
+    position: relative;
+    top: -8px;
+}
